@@ -27,7 +27,7 @@ class MainActivity : RobotActivity(),RobotLifecycleCallbacks {
         Log.d(tag,"onRobotFocusGained")
 
         val say : Say = SayBuilder.with(qiContext)
-            .withText("Hallo Mentsch")
+            .withText("Willkommen zum Rechenspiel")
             .build()
 
         say.run()
